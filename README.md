@@ -27,7 +27,6 @@
 - [⭐️ Show your support](#support)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
 # 📖 [To Do List] <a name="about-project"></a>
 
@@ -40,7 +39,7 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-This project is created using JavaScript objects and DOM.
+This project is created using React JS objects and DOM.
 
 ### Key Features <a name="key-features"></a>
 
@@ -74,7 +73,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 - cd Desktop
-- git clone https://github.com/Rifat8080/To-do-list.git
+- [git clone https://github.com/Rifat8080/To-do-list.git](https://github.com/Rifat8080/react-to-do/tree/Dev)
 
 ### Install
 
