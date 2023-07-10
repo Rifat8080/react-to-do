@@ -2,26 +2,28 @@ import './App.css';
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 
-const Todo = ({ todo, index, completeTodo, removeTodo }) => (
-  <div className='todo'>
+const Todo = ({
+  todo, index, completeTodo, removeTodo,
+}) => (
+  <div className="todo">
     <span
-      className='todo-text'
+      className="todo-text"
       style={{ textDecoration: todo.isCompleted ? 'line-through' : '' }}
     >
       {todo.text}
     </span>
 
-    <div className='action-button'>
+    <div className="action-button">
       <button
-        type='button'
-        className='complete-btn'
+        type="button"
+        className="complete-btn"
         onClick={() => completeTodo(index)}
       >
         Complete
       </button>
       <button
-        type='button'
-        className='remove-btn'
+        type="button"
+        className="remove-btn"
         onClick={() => removeTodo(index)}
       >
         x
@@ -53,10 +55,10 @@ const TodoForm = ({ addTodo }) => {
   return (
     <form onSubmit={handleSubmit}>
       <input
-        type='text'
-        className='input'
+        type="text"
+        className="input"
         value={value}
-        placeholder='Add todo...'
+        placeholder="Add todo..."
         onChange={(e) => setValue(e.target.value)}
       />
     </form>
@@ -92,8 +94,8 @@ function App() {
   };
 
   return (
-    <div className='app'>
-      <div className='todo-list'>
+    <div className="app">
+      <div className="todo-list">
         {todos.map((todo, index) => (
           <Todo
             key={todo.text}
