@@ -2,11 +2,9 @@
 
 <div align="center">
 
-  <h3><b>React To Do List</b></h3>
+  <h3><b>React To Do List v2</b></h3>
 
 </div>
-
-
 
 # 📗 Table of Contents
 
@@ -26,7 +24,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [📝 License](#license)
-
 
 # 📖 [To Do List] <a name="about-project"></a>
 
